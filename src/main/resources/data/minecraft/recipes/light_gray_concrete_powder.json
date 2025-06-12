@@ -1,0 +1,38 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "building",
+	"group": "concrete_powder",
+	"ingredients": [
+		{
+			"tag": "forge:dyes/light_gray"
+		},
+		{
+			"tag": "forge:sand"
+		},
+		{
+			"tag": "forge:sand"
+		},
+		{
+			"tag": "forge:sand"
+		},
+		{
+			"tag": "forge:sand"
+		},
+		{
+			"tag": "forge:gravel"
+		},
+		{
+			"tag": "forge:gravel"
+		},
+		{
+			"tag": "forge:gravel"
+		},
+		{
+			"tag": "forge:gravel"
+		}
+	],
+	"result": {
+		"count": 8,
+		"item": "minecraft:light_gray_concrete_powder"
+	}
+}

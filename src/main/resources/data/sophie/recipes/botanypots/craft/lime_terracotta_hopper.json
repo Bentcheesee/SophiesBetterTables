@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "botanypots"
+		}
+	],
+	"category": "misc",
+	"ingredients": [
+		{
+			"tag": "sophie:botanypots/hopper_terracotta"
+		},
+		{
+			"tag": "forge:dyes/lime"
+		}
+	],
+	"result": {
+		"item": "botanypots:lime_terracotta_hopper_botany_pot"
+	}
+}

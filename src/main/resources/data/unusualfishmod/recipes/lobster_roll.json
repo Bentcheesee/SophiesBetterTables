@@ -1,0 +1,21 @@
+{
+		"type": "minecraft:crafting_shapeless",
+	"conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "unusualfishmod"
+		}
+	],
+		"ingredients": [
+			{
+				"tag": "forge:cooked_lobster"
+			},
+			{
+				"item": "minecraft:bread"
+			}
+		],
+		"result": {
+			"item": "unusualfishmod:lobster_roll",
+			"count": 1
+		}
+}

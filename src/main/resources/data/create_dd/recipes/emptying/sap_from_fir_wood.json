@@ -1,0 +1,24 @@
+{
+	"type": "create:emptying",
+	"conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "create_dd"
+		}
+	],
+	"ingredients": [
+		{
+			"item": "biomesoplenty:stripped_fir_wood"
+		}
+	],
+	"results": [
+		{
+			"chance": 0.4,
+			"item": "biomesoplenty:stripped_fir_wood"
+		},
+		{
+			"amount": 60,
+			"fluid": "create_dd:sap"
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"type": "create:emptying",
+	"conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "create_dd"
+		}
+	],
+	"ingredients": [
+		{
+			"item": "minecraft:stripped_oak_log"
+		}
+	],
+	"results": [
+		{
+			"chance": 0.4,
+			"item": "minecraft:stripped_oak_log"
+		},
+		{
+			"chance": 0.05,
+			"item": "create_dd:crystallized_sap"
+		},
+		{
+			"amount": 25,
+			"fluid": "create_dd:sap"
+		}
+	]
+}

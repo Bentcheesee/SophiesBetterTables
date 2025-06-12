@@ -1,0 +1,28 @@
+{
+	"type": "farmersdelight:cooking",
+	"conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "alexsdelight"
+		}
+	],
+	"experience": 0.35,
+	"cookingtime": 200,
+	"ingredients": [
+		{
+		"tag": "forge:raw_lobster"
+		},
+		{
+		"item": "farmersdelight:raw_pasta"
+		},
+		{
+		"item": "farmersdelight:tomato_sauce"
+		}
+	],
+	"result": {
+		"item": "alexsdelight:lobster_pasta"
+	},
+	"container": {
+		"item": "minecraft:bowl"
+	}
+}

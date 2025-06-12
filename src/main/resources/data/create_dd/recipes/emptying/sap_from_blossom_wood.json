@@ -1,0 +1,24 @@
+{
+	"type": "create:emptying",
+	"conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "create_dd"
+		}
+	],
+	"ingredients": [
+		{
+			"item": "quark:stripped_blossom_wood"
+		}
+	],
+	"results": [
+		{
+			"chance": 0.4,
+			"item": "quark:stripped_blossom_wood"
+		},
+		{
+			"amount": 75,
+			"fluid": "create_dd:sap"
+		}
+	]
+}

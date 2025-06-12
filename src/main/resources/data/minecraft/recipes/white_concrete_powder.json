@@ -1,0 +1,38 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "building",
+	"group": "concrete_powder",
+	"ingredients": [
+		{
+			"tag": "forge:dyes/white"
+		},
+		{
+			"tag": "forge:sand"
+		},
+		{
+			"tag": "forge:sand"
+		},
+		{
+			"tag": "forge:sand"
+		},
+		{
+			"tag": "forge:sand"
+		},
+		{
+			"tag": "forge:gravel"
+		},
+		{
+			"tag": "forge:gravel"
+		},
+		{
+			"tag": "forge:gravel"
+		},
+		{
+			"tag": "forge:gravel"
+		}
+	],
+	"result": {
+		"item": "minecraft:white_concrete_powder",
+		"count": 8
+	}
+}

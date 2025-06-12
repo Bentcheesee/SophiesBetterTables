@@ -1,0 +1,34 @@
+{
+	"type": "tconstruct:damagable_melting",
+	"temperature": 800,
+	"time": 104,
+	"conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "iron_fishing_rods"
+		},
+		{
+			"type": "forge:mod_loaded",
+			"modid": "tconstruct"
+		}
+	],
+	"ingredient": [
+		{
+			"item": "iron_fishing_rods:iron_fishing_rod"
+		},
+		{
+			"item": "iron_fishing_rods:iron_fishing_rod_upgrade"
+		}
+	],
+	"result": {
+		"amount": 270,
+		"fluid": "tconstruct:molten_iron",
+		"unit_size": 25
+	},
+	"byproducts": [
+		{
+			"amount": 180,
+			"fluid": "tconstruct:molten_zinc"
+		}
+	]
+}

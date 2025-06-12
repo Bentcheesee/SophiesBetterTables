@@ -1,0 +1,23 @@
+{
+	"type": "tconstruct:damagable_melting",
+	"temperature": 1450,
+	"time": 166,
+	"conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "iron_fishing_rods"
+		},
+		{
+			"type": "forge:mod_loaded",
+			"modid": "tconstruct"
+		}
+	],
+	"ingredient": {
+		"item": "iron_fishing_rods:diamond_fishing_rod_upgrade"
+	},
+	"result": {
+		"amount": 400,
+		"fluid": "tconstruct:molten_diamond",
+		"unit_size": 25
+	}
+}

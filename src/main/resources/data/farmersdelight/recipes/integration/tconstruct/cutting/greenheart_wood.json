@@ -1,0 +1,39 @@
+{
+	"type": "farmersdelight:cutting",
+	"conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "tconstruct"
+		},
+		{
+			"type": "forge:mod_loaded",
+			"modid": "farmersdelight"
+		}
+	],
+	"ingredients": [
+		{
+			"item": "tconstruct:greenheart_wood"
+		}
+	],
+	"tool": {
+		"type": "farmersdelight:tool_action",
+		"action": "axe_strip"
+	},
+	"result": [
+		{
+			"item": "tconstruct:stripped_greenheart_wood"
+		},
+		{
+			"item": "minecraft:slime_ball"
+		},
+		{
+			"item": "minecraft:slime_ball",
+			"chance": 0.75
+		},
+		{
+			"item": "minecraft:slime_ball",
+			"chance": 0.25
+		}
+	],
+	"sound": "minecraft:item.axe.strip"
+}

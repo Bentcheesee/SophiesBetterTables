@@ -1,0 +1,24 @@
+{
+	"type": "create:cutting",
+	"processingTime": 50,
+	"conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "create"
+		},
+		{
+			"type": "forge:mod_loaded",
+			"modid": "biomebackport"
+		}
+	],
+	"ingredients": [
+		{
+			"item": "biomebackport:cherry_log"
+		}
+	],
+	"results": [
+		{
+			"item": "biomebackport:stripped_cherry_log"
+		}
+	]
+}

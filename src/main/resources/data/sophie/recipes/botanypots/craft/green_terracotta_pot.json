@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "botanypots"
+		}
+	],
+	"category": "misc",
+	"ingredients": [
+		{
+			"tag": "sophie:botanypots/terracotta"
+		},
+		{
+			"tag": "forge:dyes/green"
+		}
+	],
+	"result": {
+		"item": "botanypots:green_terracotta_botany_pot"
+	}
+}

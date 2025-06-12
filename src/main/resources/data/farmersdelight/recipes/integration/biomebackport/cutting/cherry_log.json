@@ -1,0 +1,31 @@
+{
+	"type": "farmersdelight:cutting",
+	"conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "biomebackport"
+		},
+		{
+			"type": "forge:mod_loaded",
+			"modid": "farmersdelight"
+		}
+	],
+	"ingredients": [
+		{
+			"item": "biomebackport:cherry_log"
+		}
+	],
+	"tool": {
+		"type": "farmersdelight:tool_action",
+		"action": "axe_strip"
+	},
+	"sound": "minecraft:item.axe.strip",
+	"result": [
+		{
+			"item": "biomebackport:stripped_cherry_log"
+		},
+		{
+			"item": "farmersdelight:tree_bark"
+		}
+	]
+}

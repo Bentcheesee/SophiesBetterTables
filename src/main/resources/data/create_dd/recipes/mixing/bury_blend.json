@@ -1,0 +1,22 @@
+{
+	"type": "create:mixing",
+	"conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "create_dd"
+		}
+	],
+	"ingredients": [
+		{
+			"item": "create:crushed_raw_iron"
+		},
+		{
+			"item": "minecraft:lapis_lazuli"
+		}
+	],
+	"results": [
+		{
+			"item": "create_dd:bury_blend"
+		}
+	]
+}

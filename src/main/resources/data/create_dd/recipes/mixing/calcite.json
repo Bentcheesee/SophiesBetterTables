@@ -1,0 +1,24 @@
+{
+	"type": "create:mixing",
+	"heatRequirement": "heated",
+	"conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "create_dd"
+		}
+	],
+	"ingredients": [
+		{
+			"item": "minecraft:diorite"
+		},
+		{
+			"item": "minecraft:bone_block"
+		}
+	],
+	"results": [
+		{
+			"count": 2,
+			"item": "minecraft:calcite"
+		}
+	]
+}

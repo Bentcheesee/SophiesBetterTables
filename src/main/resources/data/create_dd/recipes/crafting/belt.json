@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "create_dd"
+		}
+	],
+	"pattern": [
+		"aaa",
+		"aaa"
+	],
+	"key": {
+		"a": {
+			"tag": "forge:cured_rubber"
+		}
+	},
+	"result": {
+		"item": "create:belt"
+	}
+}

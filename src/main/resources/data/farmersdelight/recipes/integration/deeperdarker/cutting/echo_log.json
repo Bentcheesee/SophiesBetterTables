@@ -1,0 +1,31 @@
+{
+	"type": "farmersdelight:cutting",
+	"conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "deeperdarker"
+		},
+		{
+			"type": "forge:mod_loaded",
+			"modid": "farmersdelight"
+		}
+	],
+	"ingredients": [
+		{
+			"item": "deeperdarker:echo_log"
+		}
+	],
+	"tool": {
+		"type": "farmersdelight:tool_action",
+		"action": "axe_strip"
+	},
+	"result": [
+		{
+			"item": "deeperdarker:stripped_echo_log"
+		},
+		{
+			"item": "farmersdelight:tree_bark"
+		}
+	],
+	"sound": "minecraft:item.axe.strip"
+}

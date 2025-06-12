@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "botanypots"
+		}
+	],
+	"category": "misc",
+	"ingredients": [
+		{
+			"tag": "sophie:botanypots/concrete"
+		},
+		{
+			"tag": "forge:dyes/lime"
+		}
+	],
+	"result": {
+		"item": "botanypots:lime_concrete_botany_pot"
+	}
+}

@@ -1,0 +1,25 @@
+{
+	"conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "spelunkery"
+		}
+	],
+	"type": "minecraft:block",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:alternatives",
+					"children": [
+						{
+							"type": "minecraft:item",
+							"name": "spelunkery:magnetite"
+						}
+					]
+				}
+			]
+		}
+	]
+}

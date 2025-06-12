@@ -1,0 +1,24 @@
+{
+	"type": "create:emptying",
+	"conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "create_dd"
+		}
+	],
+	"ingredients": [
+		{
+			"item": "minecraft:stripped_spruce_wood"
+		}
+	],
+	"results": [
+		{
+			"chance": 0.4,
+			"item": "minecraft:stripped_spruce_wood"
+		},
+		{
+			"amount": 50,
+			"fluid": "create_dd:sap"
+		}
+	]
+}

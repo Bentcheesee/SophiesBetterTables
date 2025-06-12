@@ -1,0 +1,35 @@
+{
+	"type": "farmersdelight:cutting",
+	"conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "tconstruct"
+		},
+		{
+			"type": "forge:mod_loaded",
+			"modid": "farmersdelight"
+		}
+	],
+	"ingredients": [
+		{
+			"item": "tconstruct:skyroot_log"
+		}
+	],
+	"tool": {
+		"type": "farmersdelight:tool_action",
+		"action": "axe_strip"
+	},
+	"result": [
+		{
+			"item": "tconstruct:stripped_skyroot_log"
+		},
+		{
+			"item": "tconstruct:sky_slime_ball"
+		},
+		{
+			"item": "tconstruct:sky_slime_ball",
+			"chance": 0.5
+		}
+	],
+	"sound": "minecraft:item.axe.strip"
+}

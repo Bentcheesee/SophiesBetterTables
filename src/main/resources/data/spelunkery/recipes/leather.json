@@ -1,0 +1,28 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"conditions": [
+		{
+			"type": "forge:not",
+			"value": {
+				"type": "forge:tag_empty",
+				"modid": "forge:salt"
+			}
+		}
+	],
+	"pattern": [
+		" # ",
+		"#X#",
+		" # "
+	],
+	"key": {
+		"#": {
+				"tag": "forge:salt"
+		},
+		"X": {
+			"item": "minecraft:rotten_flesh"
+		}
+	},
+	"result": {
+		"item": "minecraft:leather"
+	}
+}

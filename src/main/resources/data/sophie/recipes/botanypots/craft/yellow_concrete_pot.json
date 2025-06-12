@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "botanypots"
+		}
+	],
+	"category": "misc",
+	"ingredients": [
+		{
+			"tag": "sophie:botanypots/concrete"
+		},
+		{
+			"tag": "forge:dyes/yellow"
+		}
+	],
+	"result": {
+		"item": "botanypots:yellow_concrete_botany_pot"
+	}
+}

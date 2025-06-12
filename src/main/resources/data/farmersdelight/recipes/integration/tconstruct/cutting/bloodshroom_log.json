@@ -1,0 +1,35 @@
+{
+	"type": "farmersdelight:cutting",
+	"conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "tconstruct"
+		},
+		{
+			"type": "forge:mod_loaded",
+			"modid": "farmersdelight"
+		}
+	],
+	"ingredients": [
+		{
+			"item": "tconstruct:bloodshroom_log"
+		}
+	],
+	"tool": {
+		"type": "farmersdelight:tool_action",
+		"action": "axe_strip"
+	},
+	"result": [
+		{
+			"item": "tconstruct:stripped_bloodshroom_log"
+		},
+		{
+			"item": "tconstruct:ichor_slime_ball"
+		},
+		{
+			"item": "tconstruct:ichor_slime_ball",
+			"chance": 0.5
+		}
+	],
+	"sound": "minecraft:item.axe.strip"
+}

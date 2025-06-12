@@ -1,0 +1,27 @@
+{
+	"conditions": [
+		{
+			"type": "mysticalagriculture:crop_enabled",
+			"crop": "mysticalagriculture:honey"
+		},
+		{
+			"type": "forge:mod_loaded",
+			"modid": "mysticalagriculture"
+		}
+	],
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "mysticalagriculture:honey_essence"
+		},
+		{
+			"item": "mysticalagriculture:honey_essence"
+		},
+		{
+			"item": "mysticalagriculture:honey_essence"
+		}
+	],
+	"result": {
+		"item": "minecraft:honeycomb"
+	}
+}

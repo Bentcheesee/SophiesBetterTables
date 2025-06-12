@@ -1,0 +1,22 @@
+{
+	"type":"exnihilosequentia:fluid_item",
+	"conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "exnihilosequentia"
+		},
+		{
+			"type": "forge:mod_loaded",
+			"modid": "delightful"
+		}
+	],
+	"fluid":{
+		"fluid":"exnihilosequentia:witch_water"
+	},
+	"input":{
+		"item":"minecraft:sweet_berries"
+	},
+	"result":{
+		"item":"delightful:salmon_berries"
+	}
+}

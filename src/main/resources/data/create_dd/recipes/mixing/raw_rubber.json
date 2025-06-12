@@ -1,0 +1,20 @@
+{
+	"type": "create:mixing",
+	"conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "create_dd"
+		}
+	],
+	"ingredients": [
+		{
+			"amount": 500,
+			"fluid": "create_dd:sap"
+		}
+	],
+	"results": [
+		{
+			"item": "create_dd:raw_rubber"
+		}
+	]
+}

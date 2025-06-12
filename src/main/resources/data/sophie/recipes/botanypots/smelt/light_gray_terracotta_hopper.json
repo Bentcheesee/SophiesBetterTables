@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:smelting",
+	"experience": 0.7,
+	"cookingtime": 200,
+	"conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "botanypots"
+		}
+	],
+	"ingredient": {
+		"item": "botanypots:light_gray_terracotta_hopper_botany_pot"
+	},
+	"result": "botanypots:light_gray_glazed_terracotta_hopper_botany_pot"
+}

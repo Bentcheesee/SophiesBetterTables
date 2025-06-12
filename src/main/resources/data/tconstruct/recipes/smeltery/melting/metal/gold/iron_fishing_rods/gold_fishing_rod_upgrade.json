@@ -1,0 +1,33 @@
+{
+	"type": "tconstruct:damagable_melting",
+	"temperature": 700,
+	"time": 114,
+	"conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "iron_fishing_rods"
+		},
+		{
+			"type": "forge:mod_loaded",
+			"modid": "tconstruct"
+		}
+	],
+	"ingredient": {
+		"item": "iron_fishing_rods:gold_fishing_rod_upgrade"
+	},
+	"result": {
+		"amount": 360,
+		"fluid": "tconstruct:molten_gold",
+		"unit_size": 10
+	},
+	"byproducts": [
+		{
+			"amount": 360,
+			"fluid": "tconstruct:molten_electrum"
+		},
+		{
+			"amount": 90,
+			"fluid": "tconstruct:molten_brass"
+		}
+	]
+}

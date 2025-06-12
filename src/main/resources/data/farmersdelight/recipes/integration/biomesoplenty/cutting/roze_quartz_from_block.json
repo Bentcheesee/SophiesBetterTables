@@ -1,0 +1,29 @@
+{
+	"type": "farmersdelight:cutting",
+	"conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "biomesoplenty"
+		},
+		{
+			"type": "forge:mod_loaded",
+			"modid": "farmersdelight"
+		}
+	],
+	"ingredients": [
+		{
+			"item": "biomesoplenty:rose_quartz_block"
+		}
+	],
+	"tool": {
+		"type": "farmersdelight:tool_action",
+		"action": "pickaxe_dig"
+	},
+	"result": [
+		{
+			"item": "biomesoplenty:rose_quartz_shard",
+			"count": 4
+		}
+	],
+	"sound": "minecraft:item.axe.strip"
+}
