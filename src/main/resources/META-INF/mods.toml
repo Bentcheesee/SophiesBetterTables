@@ -6,7 +6,7 @@ issueTrackerURL=""
 # A list of mods - how many allowed here is determined by the individual mod loader
 [[mods]] #mandatory
 modId="sophiesbettertables"
-version="1.0.0"
+version="1.1.0"
 displayName="Sophie's Better Tables"
 logoFile="logo.png"
 credits="Bentcheesee"
@@ -16,7 +16,7 @@ description='''Revamps loot tables and recipes with various mods and even base M
 
 [[dependencies.sophiesbettertables]]
 	modId="forge"
-	mandatory=true
+	mandatory=false
 	versionRange="${forge_version_range}"
 	# An ordering relationship for the dependency - BEFORE or AFTER required if the dependency is not mandatory
 	# BEFORE or AFTER- This mod is loaded BEFORE or AFTER the dependency

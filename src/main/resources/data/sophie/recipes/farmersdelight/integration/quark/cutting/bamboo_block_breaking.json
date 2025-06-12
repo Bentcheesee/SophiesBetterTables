@@ -1,0 +1,28 @@
+{
+	"type": "farmersdelight:cutting",
+	"conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "farmersdelight"
+		},
+		{
+			"type": "forge:mod_loaded",
+			"modid": "quark"
+		}
+	],
+	"ingredients": [
+		{
+			"item": "quark:bamboo_block"
+		}
+	],
+	"tool": {
+		"tag": "forge:tools/knives"
+	},
+	"sound": "minecraft:block.wood.break",
+	"result": [
+		{
+			"item": "minecraft:bamboo",
+			"count": 9
+		}
+	]
+}

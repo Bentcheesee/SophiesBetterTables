@@ -3,29 +3,26 @@
 	"conditions": [
 		{
 			"type": "forge:mod_loaded",
-			"modid": "biomebackport"
+			"modid": "farmersdelight"
 		},
 		{
 			"type": "forge:mod_loaded",
-			"modid": "farmersdelight"
+			"modid": "quark"
 		}
 	],
 	"ingredients": [
 		{
-			"item": "biomebackport:cherry_log"
+			"item": "quark:blossom_sign"
 		}
 	],
 	"tool": {
 		"type": "farmersdelight:tool_action",
 		"action": "axe_strip"
 	},
-	"sound": "minecraft:item.axe.strip",
+	"sound": "minecraft:block.wood.break",
 	"result": [
 		{
-			"item": "biomebackport:stripped_cherry_log"
-		},
-		{
-			"item": "farmersdelight:tree_bark"
+			"item": "quark:blossom_planks"
 		}
 	]
 }

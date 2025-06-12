@@ -3,19 +3,9 @@
 		{
 			"level": 1,
 			"name": "tconstruct:fortune"
-		},
-		{
-			"level": 1,
-			"name": "tinkers_reforged:amplitude"
 		}
 	],
 	"perStat": {
-		"tconstruct:maille": [
-			{
-				"level": 1,
-				"name": "tinkers_reforged:amplifier"
-			}
-		],
 		"tconstruct:armor": [
 			{
 				"level": 1,
