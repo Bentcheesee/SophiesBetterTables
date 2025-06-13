@@ -58,7 +58,7 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "spelunkery:rough_copper_nugget",
+					"name": "spelunkery:raw_copper_nugget",
 					"functions": [
 						{
 							"function": "minecraft:set_count",
