@@ -1,7 +1,7 @@
 {
 	"type": "tconstruct:melting",
-	"temperature": 1450,
-	"time": 79,
+	"temperature": 934,
+	"time": 193,
 	"conditions": [
 		{
 			"type": "forge:mod_loaded",
@@ -13,10 +13,10 @@
 		}
 	],
 	"ingredient": {
-		"item": "spelunkery:rough_diamond"
+		"item": "spelunkery:rough_emerald_block"
 	},
 	"result": {
-		"amount": 90,
-		"fluid": "tconstruct:molten_diamond"
+		"amount": 1125,
+		"fluid": "tconstruct:molten_emerald"
 	}
 }

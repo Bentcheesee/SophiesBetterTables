@@ -16,7 +16,7 @@
 		"item": "spelunkery:rough_emerald"
 	},
 	"result": {
-		"amount": 90,
+		"amount": 125,
 		"fluid": "tconstruct:molten_emerald"
 	}
 }

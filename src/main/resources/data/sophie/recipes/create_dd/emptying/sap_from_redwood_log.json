@@ -4,20 +4,24 @@
 		{
 			"type": "forge:mod_loaded",
 			"modid": "create_dd"
+		},
+		{
+			"type": "forge:mod_loaded",
+			"modid": "biomesoplenty"
 		}
 	],
 	"ingredients": [
 		{
-			"item": "quark:stripped_blossom_log"
+			"item": "biomesoplenty:stripped_redwood_log"
 		}
 	],
 	"results": [
 		{
 			"chance": 0.4,
-			"item": "quark:stripped_blossom_log"
+			"item": "biomesoplenty:stripped_redwood_log"
 		},
 		{
-			"amount": 75,
+			"amount": 60,
 			"fluid": "create_dd:sap"
 		}
 	]

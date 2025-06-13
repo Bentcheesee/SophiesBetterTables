@@ -4,17 +4,21 @@
 		{
 			"type": "forge:mod_loaded",
 			"modid": "create_dd"
+		},
+		{
+			"type": "forge:mod_loaded",
+			"modid": "biomesoplenty"
 		}
 	],
 	"ingredients": [
 		{
-			"item": "biomesoplenty:stripped_fir_wood"
+			"item": "biomesoplenty:stripped_redwood_wood"
 		}
 	],
 	"results": [
 		{
 			"chance": 0.4,
-			"item": "biomesoplenty:stripped_fir_wood"
+			"item": "biomesoplenty:stripped_redwood_wood"
 		},
 		{
 			"amount": 60,

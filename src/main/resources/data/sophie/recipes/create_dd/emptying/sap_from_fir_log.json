@@ -1,0 +1,28 @@
+{
+	"type": "create:emptying",
+	"conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "create_dd"
+		},
+		{
+			"type": "forge:mod_loaded",
+			"modid": "biomesoplenty"
+		}
+	],
+	"ingredients": [
+		{
+			"item": "biomesoplenty:stripped_fir_log"
+		}
+	],
+	"results": [
+		{
+			"chance": 0.4,
+			"item": "biomesoplenty:stripped_fir_log"
+		},
+		{
+			"amount": 60,
+			"fluid": "create_dd:sap"
+		}
+	]
+}

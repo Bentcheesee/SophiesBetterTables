@@ -135,6 +135,100 @@
 					"type": "minecraft:item",
 					"name": "minecraft:kelp",
 					"weight": 9
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:slime_ball",
+					"weight": 11,
+					"conditions": [
+						{
+							"condition": "minecraft:alternative",
+							"terms": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"biome": "minecraft:swamp"
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:prismarine_crystals",
+					"weight": 12,
+					"conditions": [
+						{
+							"condition": "minecraft:alternative",
+							"terms": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"biome": "minecraft:cold_ocean"
+									}
+								},
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"biome": "minecraft:ocean"
+									}
+								},
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"biome": "minecraft:deep_ocean"
+									}
+								},
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"biome": "minecraft:deep_cold_ocean"
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:prismarine_shard",
+					"weight": 15,
+					"conditions": [
+						{
+							"condition": "minecraft:alternative",
+							"terms": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"biome": "minecraft:cold_ocean"
+									}
+								},
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"biome": "minecraft:ocean"
+									}
+								},
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"biome": "minecraft:deep_ocean"
+									}
+								},
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"biome": "minecraft:deep_cold_ocean"
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:music_disc_11"
 				}
 			]
 		}

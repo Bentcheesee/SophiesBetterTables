@@ -1,5 +1,14 @@
 {
 	"type": "minecraft:crafting_shaped",
+	"conditions": [
+		{
+			"type": "forge:not",
+			"value": {
+				"type": "forge:tag_empty",
+				"tag": "forge:cured_rubbers"
+			}
+		}
+	],
 	"group": "belt",
 	"pattern": [
 		"XXX",
@@ -11,6 +20,7 @@
 		}
 	},
 	"result": {
-		"item": "create:belt_connector"
+		"item": "create:belt_connector",
+		"count": 3
 	}
 }

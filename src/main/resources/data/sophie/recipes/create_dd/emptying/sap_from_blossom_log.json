@@ -4,17 +4,21 @@
 		{
 			"type": "forge:mod_loaded",
 			"modid": "create_dd"
+		},
+		{
+			"type": "forge:mod_loaded",
+			"modid": "quark"
 		}
 	],
 	"ingredients": [
 		{
-			"item": "quark:stripped_blossom_wood"
+			"item": "quark:stripped_blossom_log"
 		}
 	],
 	"results": [
 		{
 			"chance": 0.4,
-			"item": "quark:stripped_blossom_wood"
+			"item": "quark:stripped_blossom_log"
 		},
 		{
 			"amount": 75,

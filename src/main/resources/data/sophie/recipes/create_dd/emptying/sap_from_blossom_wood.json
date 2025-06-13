@@ -4,20 +4,24 @@
 		{
 			"type": "forge:mod_loaded",
 			"modid": "create_dd"
+		},
+		{
+			"type": "forge:mod_loaded",
+			"modid": "quark"
 		}
 	],
 	"ingredients": [
 		{
-			"item": "biomesoplenty:stripped_redwood_wood"
+			"item": "quark:stripped_blossom_wood"
 		}
 	],
 	"results": [
 		{
 			"chance": 0.4,
-			"item": "biomesoplenty:stripped_redwood_wood"
+			"item": "quark:stripped_blossom_wood"
 		},
 		{
-			"amount": 60,
+			"amount": 75,
 			"fluid": "create_dd:sap"
 		}
 	]
