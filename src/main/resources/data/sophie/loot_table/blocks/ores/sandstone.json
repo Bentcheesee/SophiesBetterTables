@@ -1,0 +1,44 @@
+{
+	"type": "minecraft:block",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:sand",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1,
+								"max": 2
+							},
+							"add": false
+						}
+					]
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:inverted",
+					"term": {
+						"condition": "minecraft:match_tool",
+						"predicate": {
+							"components": {
+								"minecraft:enchantments": {
+									"minecraft:silk_touch": 1
+								}
+							}
+						}
+					}
+				},
+				{
+					"condition": "minecraft:random_chance",
+					"chance": 0.2
+				}
+			]
+		}
+	]
+}
