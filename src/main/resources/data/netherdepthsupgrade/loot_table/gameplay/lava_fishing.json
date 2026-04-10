@@ -6,19 +6,19 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"name": "netherdepthsupgrade:gameplay/lava_fishing/junk",
+					"value": "netherdepthsupgrade:gameplay/lava_fishing/junk",
 					"weight": 10,
 					"quality": -2
 				},
 				{
 					"type": "minecraft:loot_table",
-					"name": "netherdepthsupgrade:gameplay/lava_fishing/treasure",
+					"value": "netherdepthsupgrade:gameplay/lava_fishing/treasure",
 					"weight": 5,
 					"quality": 2
 				},
 				{
 					"type": "minecraft:loot_table",
-					"name": "netherdepthsupgrade:gameplay/lava_fishing/fish",
+					"value": "netherdepthsupgrade:gameplay/lava_fishing/fish",
 					"weight": 85,
 					"quality": -1
 				}

@@ -1,7 +1,7 @@
 {
 	"conditions": [
 		{
-			"type": "forge:mod_loaded",
+			"type": "neoforge:mod_loaded",
 			"modid": "sophies_alloys"
 		}
 	],
@@ -50,7 +50,7 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"name": "sophie:blocks/stone_ores"
+					"value": "sophie:blocks/ores/stone"
 				}
 			]
 		}

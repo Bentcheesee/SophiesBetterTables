@@ -46,7 +46,7 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"value": "sophie:ores/stone"
+					"value": "sophie:blocks/ores/stone"
 				}
 			]
 		}

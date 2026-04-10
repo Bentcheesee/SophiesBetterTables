@@ -1,15 +1,18 @@
 {
 	"type": "minecraft:smelting",
+	"group": "terracotta_hopper_pots",
+	"ingredient": {
+		"item": "botanypots:cyan_terracotta_hopper_botany_pot"
+	},
+	"result": {
+		"id": "botanypots:cyan_glazed_terracotta_hopper_botany_pot"
+	},
 	"experience": 0.7,
 	"cookingtime": 200,
 	"conditions": [
 		{
-			"type": "forge:mod_loaded",
+			"type": "neoforge:mod_loaded",
 			"modid": "botanypots"
 		}
-	],
-	"ingredient": {
-		"item": "botanypots:cyan_terracotta_hopper_botany_pot"
-	},
-	"result": "botanypots:cyan_glazed_terracotta_hopper_botany_pot"
+	]
 }

@@ -2,11 +2,11 @@
 	"type": "farmersdelight:cutting",
 	"conditions": [
 		{
-			"type": "forge:mod_loaded",
+			"type": "neoforge:mod_loaded",
 			"modid": "farmersdelight"
 		},
 		{
-			"type": "forge:mod_loaded",
+			"type": "neoforge:mod_loaded",
 			"modid": "thermal"
 		}
 	],

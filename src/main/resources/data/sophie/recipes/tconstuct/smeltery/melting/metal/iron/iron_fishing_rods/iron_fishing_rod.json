@@ -4,11 +4,11 @@
 	"time": 104,
 	"conditions": [
 		{
-			"type": "forge:mod_loaded",
+			"type": "neoforge:mod_loaded",
 			"modid": "iron_fishing_rods"
 		},
 		{
-			"type": "forge:mod_loaded",
+			"type": "neoforge:mod_loaded",
 			"modid": "tconstruct"
 		}
 	],

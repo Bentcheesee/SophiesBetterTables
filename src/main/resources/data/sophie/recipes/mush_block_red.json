@@ -2,16 +2,16 @@
 	"type": "minecraft:crafting_shaped",
 	"group": "mushroom_blocks",
 	"pattern": [
-		"XXX",
-		"XXX",
-		"XXX"
+		"xxx",
+		"xxx",
+		"xxx"
 	],
 	"key": {
-		"X": {
+		"x": {
 			"item": "minecraft:red_mushroom"
 		}
 	},
 	"result": {
-		"item": "minecraft:red_mushroom_block"
+		"id": "minecraft:red_mushroom_block"
 	}
 }

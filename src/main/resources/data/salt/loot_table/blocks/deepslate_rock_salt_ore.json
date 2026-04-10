@@ -54,7 +54,7 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"name": "sophie:ores/deepslate"
+					"value": "sophie:blocks/ores/deepslate"
 				}
 			]
 		}
