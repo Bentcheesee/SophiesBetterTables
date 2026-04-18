@@ -1,0 +1,12 @@
+{
+	"values": [
+		"minecraft:golden_shovel",
+		"minecraft:golden_hoe",
+		"minecraft:golden_sword",
+		"minecraft:golden_boots",
+		{
+			"id": "farmersdelight:golden_knife",
+			"required": false
+		}
+	]
+}
