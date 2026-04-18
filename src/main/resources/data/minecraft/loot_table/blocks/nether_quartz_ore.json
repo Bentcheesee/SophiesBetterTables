@@ -14,10 +14,15 @@
 								{
 									"condition": "minecraft:match_tool",
 									"predicate": {
-										"components": {
-											"minecraft:enchantments": {
-												"minecraft:silk_touch": 1
-											}
+										"predicates": {
+											"minecraft:enchantments": [
+												{
+													"enchantments": "minecraft:silk_touch",
+													"levels": {
+														"min": 1
+													}
+												}
+											]
 										}
 									}
 								}
@@ -59,31 +64,46 @@
 			],
 			"conditions": [
 				{
-					"condition": "minecraft:inverted",
-					"term": {
-						"condition": "minecraft:match_tool",
-						"predicate": {
-							"components": {
-								"minecraft:enchantments": {
-									"minecraft:silk_touch": 1
+					"condition": "minecraft:all_of",
+					"terms": [
+						{
+							"condition": "minecraft:random_chance",
+							"chance": 0.6
+						},
+						{
+							"condition": "minecraft:inverted",
+							"term": {
+								"condition": "minecraft:match_tool",
+								"predicate": {
+									"predicates": {
+										"minecraft:enchantments": [
+											{
+												"enchantments": "minecraft:silk_touch",
+												"levels": {
+													"min": 1
+												}
+											}
+										]
+									}
+								}
+							}
+						},
+						{
+							"condition": "minecraft:match_tool",
+							"predicate": {
+								"predicates": {
+									"minecraft:enchantments": [
+										{
+											"enchantments": "minecraft:fortune",
+											"levels": {
+												"min": 1
+											}
+										}
+									]
 								}
 							}
 						}
-					}
-				},
-				{
-					"condition": "minecraft:match_tool",
-					"predicate": {
-						"components": {
-							"minecraft:enchantments": {
-								"minecraft:fortune": 1
-							}
-						}
-					}
-				},
-				{
-					"condition": "minecraft:random_chance",
-					"chance": 0.6
+					]
 				}
 			]
 		},
