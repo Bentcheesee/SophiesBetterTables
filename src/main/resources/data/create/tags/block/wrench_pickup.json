@@ -1,6 +1,7 @@
 {
 	"replace": false,
 	"values": [
+		"#cauldrons",
 		"#sophie:bars",
 		"#sophie:chains",
 		{
