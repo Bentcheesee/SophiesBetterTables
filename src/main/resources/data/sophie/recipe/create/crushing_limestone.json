@@ -14,7 +14,7 @@
 	],
 	"results": [
 		{
-			"item": "minecraft:sand"
+			"id": "minecraft:sand"
 		},
 		{
 			"id": "minecraft:bone_meal",
