@@ -18,11 +18,6 @@
 			"id": "minecraft:copper_nugget"
 		},
 		{
-			"chance": 0.3,
-			"count": 8,
-			"id": "minecraft:copper_nugget"
-		},
-		{
 			"chance": 0.6,
 			"count": 6,
 			"id": "minecraft:copper_nugget"

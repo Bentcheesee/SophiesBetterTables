@@ -27,6 +27,18 @@
 		{
 			"id": "#supplementaries:bamboo_spikes",
 			"required": false
+		},
+		{
+			"id": "supplementaries:crystal_display",
+			"required": false
+		},
+		{
+			"id": "enderstorage:ender_tank",
+			"required": false
+		},
+		{
+			"id": "enderstorage:ender_chest",
+			"required": false
 		}
 	]
 }

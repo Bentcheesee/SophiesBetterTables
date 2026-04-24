@@ -19,6 +19,10 @@
 		{
 			"id": "minecraft:copper_leggings",
 			"required": false
+		},
+		{
+			"id": "minersdelight:copper_cup",
+			"required": false
 		}
 	]
 }

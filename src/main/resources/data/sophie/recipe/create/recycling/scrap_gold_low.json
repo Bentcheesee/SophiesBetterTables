@@ -18,13 +18,8 @@
 			"id": "minecraft:gold_nugget"
 		},
 		{
-			"chance": 0.35,
-			"count": 9,
-			"id": "minecraft:gold_nugget"
-		},
-		{
-			"chance": 0.35,
-			"count": 3,
+			"chance": 0.75,
+			"count": 4,
 			"id": "minecraft:gold_nugget"
 		},
 		{

@@ -18,12 +18,7 @@
 			"id": "minecraft:iron_nugget"
 		},
 		{
-			"chance": 0.25,
-			"count": 9,
-			"id": "minecraft:iron_nugget"
-		},
-		{
-			"chance": 0.35,
+			"chance": 0.65,
 			"count": 3,
 			"id": "minecraft:iron_nugget"
 		},
