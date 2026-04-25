@@ -6,7 +6,7 @@
 			"modid": "create"
 		}
 	],
-	"processing_time": 200,
+	"processing_time": 150,
 	"ingredients": [
 		{
 			"tag": "create:stone_types/limestone"
