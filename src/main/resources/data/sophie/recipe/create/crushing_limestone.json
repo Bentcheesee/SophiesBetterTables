@@ -24,6 +24,10 @@
 		{
 			"id": "minecraft:bone_meal",
 			"chance": 0.25
+		},
+		{
+			"id": "create:experience_nugget",
+			"chance": 0.15
 		}
 	]
 }
